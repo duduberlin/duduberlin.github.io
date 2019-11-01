@@ -1,0 +1,162 @@
+ /*
+Stylesheet for exercise 2 in the MAT 22b class at DCI Oct/Nov 2019.
+Author:Duygu Kurt
+*/
+
+/*
+Imports
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap');
+
+
+/*
+Reset
+*/   
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+ /*
+Navigation
+*/ 
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.main-nav ul li {
+   margin-right: 10px; 
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: orange;
+    color: white;
+    padding: 3px 6px;
+}
+
+.main-nav ul li a:hover {
+    background-color: red;
+    color: black;
+}
+
+
+/*
+Color
+*/
+
+body,footer p {
+    background-color: rgb(30,30,30);
+}
+    
+
+header{
+    background-image: url(../img/halloween-gettyimages-172988453.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(200,200,200);
+}
+
+.where header {
+    background-image: url(../img/pumpkin.jpg);
+}
+
+
+.why header {
+    background-image: url(../img/vampir.jpg);
+}
+
+main {
+    background-image: url(../img/spider%20web.jpg);
+    background-size: :20%;
+    background-color: rgb(230,230,230);
+}
+
+
+p {
+    background-color: rgb(255,128,0,0.9);
+}
+
+
+footer {
+    color: #fff;
+}
+
+ /*
+Typography
+*/ 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 3em;
+}
+ /*
+Layout
+*/
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol {
+    padding-left: 20px;
+    padding-bottom: 1em;
+    padding-top: 0,5em;
+}
+
+h1 {padding-top: 1.5em;
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight: 500;
+}
+
+
+
+p{
+    font-weight: 300;
+}
+
+
+
+
+header {
+    height: 25vw;
+}        
+   
+
+main {
+    height: 70vh;
+}
+
+
+p {
+width: 80%;
+    margin-bottom:0.5em;
+}
+
+
+article p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+aside p {
+    font-size: 0.8em;
+}
