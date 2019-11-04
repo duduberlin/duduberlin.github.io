@@ -62,7 +62,7 @@ footer p {
     background-color: rgb(30,30,30);    
 }
 
-header {
+.Home header {
     color: #4863A0;
     background-image: url(../img/bruce-lee3.jpg);
     background-size: 70%;
@@ -70,27 +70,53 @@ header {
     background-color: rgb(200,200,200);
 }
 
-.where header {
-    background-image: url(../img/el-dia-de-los-muertos-234236_1280.jpg);  
-        background-position: top;
+.Boxen header {
+    background-image: url(../img/mike%20tyson.jpg);  
+    background-size: 40%;
+    background-position: center;
 }
 
-.why header {
-    background-image: url(../img/pumpkin-3636243_1280.jpg);    
+.BJJ header {
+    background-image: url(../img/carlos-gracie.jpg);
+    background-size: 50%;
+    background-position: center;
 }
+
+
+.Taekwondo header {
+    background-image: url(../img/taekwondo2.jpg);
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.Sports Gear header {
+    background-image: url(../img/boxing%20gloves.jpg);
+    background-size: 50%;
+    background-position: center;
+}
+
+
 
 main {
     background-image: url(../img/animals-16908_640.jpg);
     background-size: 20%;
     background-color: rgb(230,230,230);
 }
+
+h1 {
+    color: #4863A0;
+}
+
 h2 {
     color: rgb(200,100,0);
     background-color: rgba(255,255,255,0.7)
 }
 
 p,h3 {
-    background-color: #4863A0}
+    background-color: #4863A0;
+}
+    
 
 p,h3,main a {
     color: #fff;    
